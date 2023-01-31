@@ -5,7 +5,7 @@ import {
   Bio,
   Video
 } from "./containers";
-import { Join, Links, Slider } from "./components";
+import { Join, Links, Slider, Modal } from "./components";
 
 import "./App.css";
 
@@ -29,6 +29,7 @@ const App = () => (
     </div>
 
     <Join />
+   
 
     
     <div className="gradient__bg_2">
