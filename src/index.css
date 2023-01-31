@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: "Kumbh Sans", sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #08f4c8 1.84%, #1972f4 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #08f4c8 -13.86%, #1972f4  99.55%);
+  --gradient-bar2: linear-gradient(103.22deg, #000000 -13.86%, #8CD0F9 99.55%);
+
+  --color-bg: rgb(8, 1, 19);
+  --color-footer: rgba(4, 12, 24, 1);
+  --color-partners: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+}
