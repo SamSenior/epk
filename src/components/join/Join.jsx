@@ -6,8 +6,7 @@ const Join = () => (
     <div className="join-content">
       <p></p>
       <h3>
-        Interested in joining the WolvesDAO? Fill out an application to share
-        your skillset with us now
+        Do you have a question or a booking enquiry for Sammy Senior? fill out this form to send a message to him
       </h3>
     </div>
     <div className="join-btn">

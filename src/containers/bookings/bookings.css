@@ -67,8 +67,8 @@
 }
 
 .about-heading h1 {
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 27px;
+    line-height: 40px;
     font-weight: 800;
     font-family: var(--font-family);
     max-width: 610px;
@@ -88,7 +88,7 @@
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 /* Customizing feature component as per needs */

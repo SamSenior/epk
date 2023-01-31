@@ -1,12 +1,11 @@
 import React from "react";
 import {
-  
   Media,
   Bookings,
   Bio,
   Video
 } from "./containers";
-import { Join, Links } from "./components";
+import { Join, Links, Slider } from "./components";
 
 import "./App.css";
 
@@ -23,9 +22,15 @@ const App = () => (
     <Media />
     </div>
 
+    <Video />
+
+    <div className="gradient__bg">
+    <Slider />
+    </div>
+
     <Join />
 
-    <Video />
+    
     <div className="gradient__bg_2">
       <Links />
     </div>

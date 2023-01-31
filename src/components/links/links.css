@@ -1,4 +1,4 @@
-.brand {
+.links {
     
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.brand div {
+.links div {
     flex: 1;
     max-height: 3rem;
     max-width: 150px;

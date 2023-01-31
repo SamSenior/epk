@@ -1,35 +1,36 @@
 import React from "react";
-import { link, youtube, twitter, github, discord } from "./imports";
+import { soundcloud, youtube, spotify, instagram, bandcamp } from "./imports";
 import "./links.css";
 
-const Brand = () => (
-  <div className="brand section__padding">
+const Links = () => (
+  <div className="links section__padding">
     <div>
-      <a href="https://linkedin.com/in/paytonkaleiwahea" target="_blank" rel="noreferrer">
-        <img src={link} alt="link" />
+      <a href="https://open.spotify.com/artist/4853sVG5aP9LGiakNXd1bp" target="_blank" rel="noreferrer">
+        <img src={spotify} alt="spotify"  className="discord" />
       </a>
     </div>
     <div>
-      <a href="https://youtube.com/PaytonKaleiwahea" target="_blank" rel="noreferrer">
-        <img src={youtube} alt="youtube" />
+      <a href="https://www.youtube.com/sammyseniorNZ" target="_blank" rel="noreferrer">
+        <img src={youtube} alt="youtube"  className="discord" />
       </a>
     </div>
     <div>
-      <a href="https://twitter.com/WolvesDAO" target="_blank" rel="noreferrer">
-        <img src={twitter} alt="twitter" />
+      <a href="https://www.sammysenior.bandcamp.com" target="_blank" rel="noreferrer">
+        <img src={bandcamp} alt="bandcamp"  className="discord" />
       </a>
     </div>
     <div>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
-        <img src={github} alt="github" />
+      <a href="https://instagram.com/sammysenior" target="_blank" rel="noreferrer">
+        <img src={instagram} alt="instagram" className="discord" />
       </a>
     </div>
     <div>
-      <a href="https://discord.com" target="_blank" rel="noreferrer">
-        <img src={discord} alt="discord" className="discord" />
+      <a href="https://soundcloud.com/sammysenior" target="_blank" rel="noreferrer">
+        <img src={soundcloud } alt="soundcloud"  className="discord" />
       </a>
     </div>
+   
   </div>
 );
 
-export default Brand;
+export default Links;

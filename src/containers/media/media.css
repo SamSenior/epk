@@ -3,6 +3,15 @@
   flex-direction: row;
 }
 
+.music_links {
+  color:#ffffff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: underline;
+}
+
 .roadmap-image {
   flex: 1;
   display: flex;
@@ -13,7 +22,7 @@
 }
 
 .roadmap-image img {
-  width: 90%;
+  width: 100%;
   height: auto;
   opacity: 70%;
 }
@@ -32,7 +41,7 @@
   font-size: 22px;
   line-height: 30px;
   color: #71e5ff;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 .roadmap-content h4:last-child {
@@ -50,8 +59,8 @@
 .roadmap-content p {
   color: var(--color-text);
   font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 22px;
   line-height: 30px;
 
   margin-bottom: 2rem;

@@ -1,8 +1,8 @@
 import React from "react";
-import vrImage from "../../assets/vr.jpg";
+import vrImage from "../../assets/scour.jpg";
 import "./media.css";
 
-const Roadmap = () => (
+const Media = () => (
   <div className="roadmap section__padding" id="roadmap">
     <div className="roadmap-image">
       <img src={vrImage} alt="vr" />
@@ -15,9 +15,46 @@ const Roadmap = () => (
       <p>
         Listen to the latest music from Sammy Senior
       </p>
+      <div className="music_links">
+        <div>
+      <a
+   target="_blank"
+   rel="noreferrer"
+   href='https://www.sammysenior.bandcamp.com'>
+        Bandcamp
+</a>
+</div>
+<div>
+  <a
+   target="_blank"
+   rel="noreferrer"
+   href='https://soundcloud.com/sammysenior'>
+        Soundcloud
+</a>
+</div>
+<div>
+      <a
+   target="_blank"
+   rel="noreferrer"
+   href='https://open.spotify.com/artist/4853sVG5aP9LGiakNXd1bp'>
+        Spotify
+</a>
+</div>
+<div>
+  <a
+   target="_blank"
+   rel="noreferrer"
+   href='https://www.instagram.com/sammysenior/'>
+        Instagram
+</a>
+</div>
+
+
+
+</div>
      
     </div>
   </div>
 );
 
-export default Roadmap;
+export default Media;
