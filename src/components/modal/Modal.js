@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Contact from "../contact/Contact";
 
-import "./modal.css";
+import "./Modal.css";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
