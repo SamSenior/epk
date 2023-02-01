@@ -1,6 +1,6 @@
 import React from "react";
 import "./join.css";
-// import { Modal } from "../"
+import { Modal } from "../"
 
 
 const Join = () => (
@@ -12,7 +12,7 @@ const Join = () => (
       </h3>
     </div>
     <div className="join-btn">
-       {/* <Modal /> */}
+       <Modal />
     </div>
   </div>
 );
