@@ -3,9 +3,9 @@ import {
   Media,
   Bookings,
   Bio,
-  Video
+  // Video
 } from "./containers";
-import { Join, Links, Slider } from "./components";
+import { Join, Links } from "./components";
 
 import "./App.css";
 
@@ -22,10 +22,10 @@ const App = () => (
     <Media />
     </div>
 
-    <Video />
+    {/* <Video /> */}
 
     <div className="gradient__bg">
-    <Slider />
+    {/* <Slider /> */}
     </div>
 
     <Join />
