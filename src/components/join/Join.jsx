@@ -1,7 +1,7 @@
 import React from "react";
 import "./join.css";
 import { Modal } from "../"
-import "..modal/modal.css"
+
 
 const Join = () => (
   <div className="join">
