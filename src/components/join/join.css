@@ -29,7 +29,7 @@
 .join-content h3 {
   font-family: var(--font-family);
   font-size: 24px;
-  line-height: 45px;
+  line-height: 30px;
   font-weight: 800;
   color: black;
 }
@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
 
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .join-btn button {
@@ -50,7 +50,7 @@
   font-size: 18px;
   line-height: 30px;
   padding: 0.5rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 
   border: none;
   outline: none;
