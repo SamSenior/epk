@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Contact from "../contact/Contact";
-import "./Modal.css";
+import "./modal.css";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -18,14 +18,14 @@ export default function Modal() {
   return (
     <>
       <button onClick={toggleModal} className="btn-modal">
-        Open
+        Get Started
       </button>
 
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
+            <h2>Enquire</h2>
             <div>
               <Contact />
               </div>
