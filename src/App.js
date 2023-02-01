@@ -5,7 +5,7 @@ import {
   Bio,
   Video
 } from "./containers";
-import { Join, Links, Slider, Modal } from "./components";
+import { Join, Links, Slider } from "./components";
 
 import "./App.css";
 

@@ -34,7 +34,7 @@ export default function Slider() {
             {dataSlider.map((obj, index) => {
                 return (
                     <div
-                    key={obj.id}
+                    key={index}
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
