@@ -1,6 +1,7 @@
 import React from "react";
 import "./join.css";
 import { Modal } from "../"
+import "..modal/modal.css"
 
 const Join = () => (
   <div className="join">
@@ -12,7 +13,6 @@ const Join = () => (
     </div>
     <div className="join-btn">
        <Modal />
-      {/* <button  type="button" >Get Started</button> */}
     </div>
   </div>
 );
