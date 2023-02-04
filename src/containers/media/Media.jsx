@@ -10,7 +10,7 @@ const Media = () => (
     <div className="roadmap-content">
       <h1 className="gradient__text">Media</h1>
       <h4>
-      Sammy has released music on many labels, but he has mostly given his music away as free downloads. Although he now predominantly produces bass house and drum and bass, over the last decade Sammy has put his brand on many genres including funky breaks, glitch-hop, hip-hop, jungle, ragga, dub, swing and more, often colaborating with artists from around the world. Recently his track "Setting It Off" was featured in the Netflix movie "The Sleepover"
+      Sammy has released music on many labels, but he has mostly given his music away as free downloads. Although he now predominantly produces bass house and drum and bass, over the last decade Sammy has put his brand on many genres including funky breaks, glitch-hop, hip-hop, jungle, ragga, dub, swing and more, often collaborating with artists from around the world. Recently his track "Setting It Off" was featured in the Netflix movie "The Sleepover"
       </h4>
       <p>
         Listen to the latest music from Sammy Senior
